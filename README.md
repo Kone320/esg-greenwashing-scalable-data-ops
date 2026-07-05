@@ -296,7 +296,43 @@ main
 | Accès S3 | Anonyme (`AnonymousAWSCredentialsProvider`) |
 
 ---
+## Power BI Dashboard
 
+The final Power BI dashboard developed during the Data Analytics phase is available in:
+
+- `ESG Greenwashing dashboard.pbix`
+
+### Dashboard Structure
+
+The dashboard follows a three-page storytelling approach:
+
+#### Executive Overview
+**Question:** What is happening?
+
+- Total Companies
+- Total Observations
+- Greenwashing Rate
+- Greenwashing Exposure by Sector
+- Greenwashing Trend Over Time
+
+#### Greenwashing Analysis
+**Question:** Why is it happening?
+
+- ESG Score vs CDP Score
+- Companies by Credibility Gap
+- Average Emission Trend by Commitment Score
+- Average Carbon Intensity by Sector
+
+#### Predictive Analytics
+**Question:** What should we do?
+
+- High-Risk Cases
+- Highest Risk Score
+- Average Risk Score
+- Top High-Risk Companies
+- Top Model Drivers
+- Average Predicted Greenwashing Risk by Sector
+---
 ## Contact
 
 - **Architecture / S3 / infrastructure** : Sarangan Uthayan
